@@ -1,0 +1,18 @@
+name: Build LaTex Document
+
+  build-docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the stack
+        run: make up
+      - name: Build the PDF
+        run: make docker-build
+
+      # Stores the pdf
+      - name: Saving the Built PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: MainFile_docker_build.pdf
+          path: ./build/main.pdf
+          if-no-files-found: error
