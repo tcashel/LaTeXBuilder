@@ -1,6 +1,7 @@
 # LaTeXBuilder
 
-[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-informational)](https://www.latex-project.org/)
+[![language][badge.language]][language]
+[![license][badge.license]][license]
 
 An easy way to build a LaTex file
 
@@ -8,8 +9,9 @@ An easy way to build a LaTex file
 
 - This project contains the framework to build and release a LaTeX document using github workflows using a docker container as the build environment.
 - You could use this to build a resume.
-- git tracking with versioned releases? yes please!
+  - git tracking with versioned releases? yes please!
 - The project uses `latexmk` to build and `texlive` for dependencies.
+- Licensed under the Apache License, Version 2.0
 
 ## Usage
 
@@ -59,12 +61,20 @@ then you can push the tag with:
 git push origin v2021.1
 ```
 
-see the git docs on tagging for more info: [](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+see the git docs on tagging for more info: [Git Basics Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
-## Source of Example Resume
+## Sources / References
 
 The example resume in [main.tex](./main.tex) is from a [post on toofishes.net on May 10th 2010](https://web.archive.org/web/20151031150425/http://www.toofishes.net/blog/latex-resume-follow-up/)
+
+The [.gitignore](./.gitignore) file is a trimmed down version of the [TeX.gitignore](https://github.com/github/gitignore/blob/master/TeX.gitignore) from the [gitignore](https://github.com/github/gitignore) project on GitHub.
 
 ## Support / Issues
 
 File bug reports, feature requests and questions using [GitHub Issues](https://github.com/tcashel/LaTeXBuilder/issues)
+
+[badge.language]: https://img.shields.io/badge/Language-LaTeX-yellow.svg
+[badge.license]: https://img.shields.io/badge/license-Apache--2.0-blue
+
+[language]: https://en.wikipedia.org/wiki/TeX
+[license]: https://en.wikipedia.org/wiki/Apache_License
