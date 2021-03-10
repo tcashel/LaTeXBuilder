@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build the stack
-        run: make up
+        run: make docker-up
       - name: Build the PDF
         run: make docker-build
 
