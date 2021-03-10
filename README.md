@@ -3,8 +3,6 @@
 ![Built LaTex Document](https://github.com/tcashel/LaTeXBuilder/actions/workflows/Build_and_Save.yaml/badge.svg)
 [![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-informational)](https://www.latex-project.org/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-informational)](http://commonmark.org)
-[![language][badge.language]][language]
-[![license][badge.license]][license]
 
 An easy way to build a LaTex file
 
