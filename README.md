@@ -49,13 +49,13 @@ This workflow is run on push events with tags matching the pattern `v*`, i.e. `v
 
 To Tag a commit, push up your changes, wait for the build jobs to pass and then:
 
-```
+```bash
 git tag -a v2021.1 -m "version 2021.1"
 ```
 
 then you can push the tag with:
 
-```
+```bash
 git push origin v2021.1
 ```
 
@@ -63,7 +63,7 @@ see the git docs on tagging for more info: [](https://git-scm.com/book/en/v2/Git
 
 ## Source of Example Resume
 
-The example reasume in [main.tex](./main.tex) is from a [post on toofishes.net on May 10th 2010](https://web.archive.org/web/20151031150425/http://www.toofishes.net/blog/latex-resume-follow-up/)
+The example resume in [main.tex](./main.tex) is from a [post on toofishes.net on May 10th 2010](https://web.archive.org/web/20151031150425/http://www.toofishes.net/blog/latex-resume-follow-up/)
 ## Support / Issues
 
 File bug reports, feature requests and questions using [GitHub Issues](https://github.com/tcashel/LaTeXBuilder/issues)
