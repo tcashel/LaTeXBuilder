@@ -64,8 +64,7 @@ see the git docs on tagging for more info: [](https://git-scm.com/book/en/v2/Git
 ## Source of Example Resume
 
 The example resume in [main.tex](./main.tex) is from a [post on toofishes.net on May 10th 2010](https://web.archive.org/web/20151031150425/http://www.toofishes.net/blog/latex-resume-follow-up/)
+
 ## Support / Issues
 
 File bug reports, feature requests and questions using [GitHub Issues](https://github.com/tcashel/LaTeXBuilder/issues)
-
-Copyright © 2021, Tripp Cashel
