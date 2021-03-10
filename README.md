@@ -1,5 +1,6 @@
 # LaTeXBuilder
 
+[![CI](https://github.com/tcashel/LaTeXBuilder/actions/workflows/Build_and_Save.yml/badge.svg)](https://github.com/tcashel/LaTeXBuilder/actions/workflows/Build_and_Save.yml/badge.svg)
 [![language][badge.language]][language]
 [![license][badge.license]][license]
 
